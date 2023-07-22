@@ -1,0 +1,252 @@
+
+/* Style Guide */
+
+:root {
+    /* #region colors*/
+    --color-iris-primary-brand: #4D5AE5;
+    --color-ocean-pressed-state: #404BBF;
+    --color-navy-blue-dark: #2E2F42;
+    --color-green-success: #31D0AA;
+    --color-slate-body-text: #434455;
+    --color-light-slate-subtle-text: #8E8F99;
+    --color-cornflower-accent: #E7E9FC;
+    --color-cloud-light: #F4F4FD;
+    --color-navy-blue-modal-overlay: #2E2F42;
+    --color-grey-hero-background: #2E2F42;
+    --color-white-background: #FFFFFF;
+    --color-dairy-mdal-background: #FCFCFC;
+    /* #endregion colors */
+
+    /* #region typography */
+
+    --font-family: 'Roboto', sans-serif;
+    --font-weight: 400;
+    --font-size: 16px;
+    --letter-spacing: 0.02;
+    --line-height: calc(24px/16px);
+
+    /* #region Title/Header 1 */
+    --h1-font-weight: 700;
+    --h1-font-size: 56px;
+    --h1-line-height: calc(60px/56px);
+    /* #endregion Title/Header 1 */
+
+    /* #region Header 2 */
+    --h2-font-weight: 700;
+    --h2-font-size: 36px;
+    /* #endregion Header 2 */
+
+    /* #region Header 3 */
+    --h3-font-weight: 500;
+    --h3-font-size: 20px;
+    /* #endregion Header 3 */
+
+    /* #region Small */
+    --small-font-size: 12px;
+    --small-line-height: calc(14px/12);
+    --small-letter-spacing: 0.04;
+    /* #endregion Small */
+
+    /* #region Body Medium */
+    --body-medium-font-weight: 500;
+    /* #endregion Body Medium */
+
+    /* #region Button Text */
+    --button-font-weight: 500;
+    --button-letter-spacing: 0.04;
+    /* #endregion Button Text */
+
+    /* #region Link */
+    --link-font-size: 12px;
+    --link-line-height: calc(16px/12px);
+    --link-letter-spacing: 0.04;
+    --link-decoration: Underline;
+    /* #endregion Link */
+
+    /* #region Logo */
+    --logo-font-family: 'Relevay', sans-serif;
+    --logo-font-weight: 800;
+    --logo-font-size: 18px;
+    --logo-letter-spacing: 0.03;
+    --logo-line-height: calc(21px/18px);
+    /* #endregion Logo */
+
+    /* #endregion typography */
+
+}
+
+/* VISUAL DESIGN */
+
+/* typography */
+.text{
+font-size: 16px;
+font-family: Roboto;
+font-weight: 100;
+font-style: normal;
+line-height: 24px;
+letter-spacing: 0.4px;
+text-decoration: none;
+text-decoration-line: overline;
+word-spacing: normal;
+}
+/* color */
+.color{
+    color: #2E2F42;
+    background-color: #31D0AA;
+   
+}
+
+.decoration{
+    list-style: circle;
+    list-style-type: circle;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    text-shadow: white;
+    border: 1px solid var(--cloud, #F4F4FD);
+    border-radius: ;
+    text-transform: uppercase;
+
+    
+}
+
+/* POSITION AND   */
+
+.position{
+    width: 296px;
+    height: 300px;
+    margin: auto;
+    padding: 0px 16px;
+    white-space:normal;
+
+    
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Studio */
+
+.body {
+}
+.header {
+}
+.navigation {
+}
+.link {
+}
+.logo {
+}
+.logo-dark {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+.nav-link {
+}
+.address {
+}
+.address-list {
+}
+.email {
+}
+.phone {
+}
+.main {
+}
+.section {
+}
+.hero {
+}
+.title-hero {
+}
+.button {
+}
+.advantages {
+}
+.title {
+}
+.advantive-list {
+}
+.advantive-list-item {
+}
+.advantive-card {
+}
+.subtitle {
+}
+.text {
+}
+.skill {
+}
+.skill-list {
+}
+.skill-list-item {
+}
+.our-team {
+}
+.our-team-list {
+}
+.our-team-list-item {
+}
+.social-media-list {
+}
+.social-media-list-item {
+}
+.social-media-link {
+}
+.customers {
+}
+.customers-list {
+}
+.customers-list-item {
+}
+.footer {
+}
+.footer-block {
+}
+.logo-light {
+}
+.footer-text {
+}
+.footer-title {
+}
+.subscribe-input {
+}
+.subscribe-button {
+}
+
+
+/* Portfolio */
+
+
+
+.portfolio-title {
+}
+.filter {
+}
+.filter-list {
+}
+.filter-list-item {
+}
+.filter-button {
+}
+.portfolio-card {
+}
+.card-list {
+}
+.card-list-item {
+}
+.portfolio-card-link {
+}
+

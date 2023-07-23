@@ -21,7 +21,7 @@
     --font-family: "Roboto", sans-serif;
     --font-weight: 400;
     --font-size: 16px;
-    --letter-spacing: 0.02em;
+    --letter-spacing: 2%;
     --line-height: 1.5;
 
     /* #region Title/Header 1 */
@@ -43,7 +43,7 @@
     /* #region Small */
     --small-font-size: 12px;
     --small-line-height: calc(14px/12);
-    --small-letter-spacing: 0.04em;
+    --small-letter-spacing: 4%;
     /* #endregion Small */
 
     /* #region Body Medium */
@@ -52,13 +52,13 @@
 
     /* #region Button Text */
     --button-font-weight: 500;
-    --button-letter-spacing: 0.04em;
+    --button-letter-spacing: 4%;
     /* #endregion Button Text */
 
     /* #region Link */
     --link-font-size: 12px;
     --link-line-height: 1.17;
-    --link-letter-spacing: 0.04em;
+    --link-letter-spacing: 4%;
     --link-decoration: Underline;
     /* #endregion Link */
 
@@ -66,7 +66,7 @@
     --logo-font-family: "Raleway", sans-serif;
     --logo-font-weight: 800;
     --logo-font-size: 18px;
-    --logo-letter-spacing: 0.03em;
+    --logo-letter-spacing: 3%;
     --logo-line-height: 1.17;
     /* #endregion Logo */
 
@@ -79,8 +79,11 @@ body {
 
     color: var(--color-slate-body-text);
     background-color: var(--color-white-background);
-    font-family: var(--font-family);
-
+    --font-family: "Roboto", sans-serif;
+    --font-weight: 400;
+    --font-size: 16px;
+    --letter-spacing: 0.02em;
+    --line-height: 1.5;
 }
 
 a {
@@ -187,7 +190,7 @@ address {font-style: normal;}
 }
 
 
-.title-blok {
+.title-hero {
     /* width: 496px; */
     text-align: center;
 }
@@ -211,6 +214,9 @@ address {font-style: normal;}
     color: var(--color-white-background);
     font-weight: var(--button-font-weight);
     letter-spacing: var(--button-letter-spacing);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -223,9 +229,19 @@ address {font-style: normal;}
     width: 264px;
 } */
 
+
+
 .subtitle {
     font-size: var(--h3-font-size);
     font-weight: var(--h3-font-weight);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+
+.text {line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 /* What are we doing */
@@ -236,6 +252,8 @@ address {font-style: normal;}
     font-size: var(--h2-font-size);
     font-weight: var(--h2-font-weight);
     text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 /* our-team */
@@ -243,15 +261,15 @@ address {font-style: normal;}
     background: var(--color-cloud-light);
 }
 
-/* .our-team-list-item {
-    width: 264px;
+.our-team-list-item {
+    /* width: 264px;
     height: 380px;
     text-align: center;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--color-white-background);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */
+    background-color: #FFFFFF
+    /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 
-} */
+}
 
 /* footer */
 .footer {
@@ -275,19 +293,30 @@ address {font-style: normal;}
     text-align: center; */
     cursor: pointer;
     /* border: 1px solid var(--color-cornflower-accent); */
-    color: var(--color-iris-primary-brand);
-    background: var(--color-cloud-light);
+    /* color: var(--color-iris-primary-brand);
+    background-color: var(--color-cloud-light); */
     font-weight: var(--button-font-weight);
     letter-spacing: var(--button-letter-spacing);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color:#F4F4FD;
+
 }
 
 .filter-button:hover,
 .filter-button:focus {
     /* border-radius: 4px;
     border: none; */
-    color: var(--color-white-background);
+    /* color: var(--color-white-background); */
     /* background: var(--color-ocean-pressed-state);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); */
+
+    color:#FFFFFF;
+    background-color: #404BBF;
+    
 }
 
 .card-list-item {

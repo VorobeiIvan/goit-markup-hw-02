@@ -79,11 +79,11 @@ body {
 
     color: var(--color-slate-body-text);
     background-color: var(--color-white-background);
-    --font-family: "Roboto", sans-serif;
-    --font-weight: 400;
-    --font-size: 16px;
-    --letter-spacing: 0.02em;
-    --line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 a {

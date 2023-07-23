@@ -138,14 +138,15 @@ ul {
     line-height: var(--logo-line-height);
     letter-spacing: var(--logo-letter-spacing);
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .logo-dark {
-    color: var(--color-navy-blue-dark)
+    color: var(--color-navy-blue-dark);
 }
 
 .logo-light {
-    color: var(--color-cloud-light)
+    color: var(--color-cloud-light);
 }
 
 /* .nav-list {

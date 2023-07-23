@@ -136,13 +136,14 @@ ul {
     font-size: var(--logo-font-size);
     font-weight: var(--logo-font-weight);
     line-height: var(--logo-line-height);
-    letter-spacing: var(--logo-letter-spacing);
+    /* letter-spacing: var(--logo-letter-spacing); */
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
 .logo-dark {
-    color: var(--color-navy-blue-dark);
+    /* color: var(--color-navy-blue-dark); */
+    color:#2e2f42; 
 }
 
 .logo-light {
@@ -214,10 +215,11 @@ address {font-style: normal;}
     /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
     color: var(--color-white-background);
     font-weight: var(--button-font-weight);
-    letter-spacing: var(--button-letter-spacing);
+    /* letter-spacing: var(--button-letter-spacing); */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif 
 }
 
 .button:hover,
@@ -297,13 +299,14 @@ address {font-style: normal;}
     /* color: var(--color-iris-primary-brand);
     background-color: var(--color-cloud-light); */
     font-weight: var(--button-font-weight);
-    letter-spacing: var(--button-letter-spacing);
+    /* letter-spacing: var(--button-letter-spacing); */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4d5ae5;
     background-color:#F4F4FD;
+    font-family: "Roboto", sans-serif
 
 }
 

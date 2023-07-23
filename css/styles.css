@@ -254,6 +254,8 @@ ul {
 }
 
 .footer-text {
+    width: 264px;
+    height: 72px;
     color: var(--color-cloud-light);
 }
 

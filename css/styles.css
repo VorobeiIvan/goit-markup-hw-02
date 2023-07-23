@@ -137,10 +137,8 @@ a {
 
 address {font-style: normal;}
 
-.email:hover,
-.email:focus,
-.phone:hover,
-.phone:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--color-ocean-pressed-state);
 }
 
